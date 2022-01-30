@@ -1,0 +1,18 @@
+.logoClouds {
+  padding: 0 112px;
+  margin: 16px 0;
+
+  & .container {
+    border-bottom: 1px solid $neutral-200;
+    border-top: 1px solid $neutral-200;
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content;
+    justify-content: center;
+    gap: 40px;
+    padding: 24px 0;
+
+    & .item {
+      padding: 15px 0;
+    }
+  }
+}

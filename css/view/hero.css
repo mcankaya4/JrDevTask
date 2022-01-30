@@ -1,0 +1,100 @@
+.hero {
+  padding-left: 112px;
+  padding-right: 112px;
+  height: 866px;
+  background-image: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  & .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    & .left {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      & .left-nav {
+        display: flex;
+        gap: 16px;
+
+        & .left-nav-item {
+          padding: 4px;
+          font-size: $body-sm-size;
+          line-height: $body-sm-line-height;
+          font-weight: 600;
+
+          &:hover {
+            color: $primary-600;
+          }
+        }
+      }
+    }
+
+    & .badges {
+      display: flex;
+      gap: 12px;
+
+      & .nav-collapse {
+        display: none;
+      }
+    }
+  }
+
+  & .container {
+    display: flex;
+    gap: 20px;
+
+    & .content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-top: 168px;
+
+      & .title {
+        font-size: $display-xl-size;
+        line-height: $display-xl-line-height;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      & .desc {
+        font-size: $body-lg-size;
+        line-height: $body-lg-line-height;
+        font-weight: 400;
+        color: $neutral-700;
+      }
+
+      & .btns {
+        margin-top: 16px;
+        display: flex;
+        gap: 8px;
+
+        & .btn {
+          padding: 16px 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-size: $body-md-size;
+          line-height: $body-md-line-height;
+          font-weight: 600;
+          color: $primary-600;
+          border-radius: 8px;
+        }
+
+        & .btn-bg {
+          color: $white;
+          background-color: $primary-600;
+        }
+      }
+    }
+
+    & .phone {
+      padding: 84px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/* Colors */
+$white: #fff;
+$black: #000;
+$primary-100: #ede9fe;
+$primary-300: #c4b5fd;
+$primary-600: #7c3aed;
+$primary-900: #4c1d95;
+$secondary-100: #d5fafc;
+$secondary-300: #75e3ea;
+$secondary-600: #1db5be;
+$neutral-50: #f9fafb;
+$neutral-100: #f3f4f6;
+$neutral-200: #e5e7eb;
+$neutral-300: #d1d5db;
+$neutral-500: #6b7280;
+$neutral-600: #4b5563;
+$neutral-700: #374151;
+$neutral-900: #111827;
+$accent-05: #a0dcff;
+$accent-07: #f9b501;
+
+$display-xl-size: 60px;
+$display-xl-line-height: 72px;
+$display-lg-size: 48px;
+$display-lg-line-height: 60px;
+$display-md-size: 36px;
+$display-md-line-height: 45px;
+$display-sm-size: 30px;
+$display-sm-line-height: 40px;
+$display-xs-size: 24px;
+$display-xs-line-height: 32px;
+
+$body-xl-size: 20px;
+$body-xl-line-height: 28px;
+$body-lg-size: 18px;
+$body-lg-line-height: 28px;
+$body-md-size: 16px;
+$body-md-line-height: 24px;
+$body-sm-size: 14px;
+$body-sm-line-height: 20px;

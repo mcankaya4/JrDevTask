@@ -1,0 +1,124 @@
+@media (--sm) {
+  .hero {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 1240px;
+
+    & .left-nav-item {
+      display: none;
+    }
+
+    & .nav-collapse {
+      display: block !important;
+    }
+
+    & .container {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 80px 0;
+      gap: 80px;
+
+      & .content {
+        padding-top: initial;
+
+        & .title {
+          font-size: $display-lg-size;
+          line-height: $display-lg-line-height;
+          font-weight: 700;
+          margin: 0;
+        }
+      }
+
+      & .phone {
+        padding: initial;
+      }
+    }
+  }
+
+  .logoClouds {
+    padding: 0 40px;
+
+    & .container {
+      grid-template-columns: max-content max-content max-content max-content;
+      gap: 10px 40px;
+
+      & .second {
+        grid-column: 2;
+      }
+      & .second2 {
+        grid-column: 3;
+      }
+    }
+  }
+
+  .features {
+    padding: 80px 40px;
+
+    & .heading {
+      max-width: 688px;
+
+      & .title {
+        font-size: $display-md-size;
+        line-height: $display-md-line-height;
+      }
+    }
+
+    & .container {
+      grid-template-columns: 300px 300px;
+
+      & .item {
+        & .title {
+          font-size: $display-xs-size;
+          line-height: $display-xs-line-height;
+        }
+      }
+    }
+  }
+
+  .testimonial {
+    padding: 64px 40px 80px;
+    gap: 24px;
+    flex-direction: column;
+
+    & .left {
+      gap: 40px;
+      align-items: flex-start;
+
+      & .heading {
+        padding: 64px 0 0 20px;
+
+        & .title {
+          font-size: $display-md-size;
+          line-height: $display-md-line-height;
+          font-weight: 700;
+        }
+      }
+    }
+
+    & .right {
+      margin-top: 0;
+      gap: 24px;
+    }
+
+    & .section {
+      width: initial;
+    }
+
+    & .hubspot {
+      width: initial;
+    }
+
+    & .airbnb {
+      width: initial;
+    }
+
+    & .strapi {
+      width: initial;
+    }
+  }
+
+  .footer {
+    padding: 64px 40px;
+  }
+}

@@ -1,0 +1,138 @@
+@media (--xs) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1240px;
+
+    & .navbar {
+      height: 72px;
+    }
+
+    & .left-nav-item {
+      display: none;
+    }
+
+    & .badged-item {
+      display: none;
+    }
+
+    & .nav-collapse {
+      display: block !important;
+    }
+
+    & .container {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 48px 0 94px;
+      gap: 80px;
+
+      & .content {
+        padding-top: initial;
+
+        & .title {
+          font-size: $display-md-size;
+          line-height: $display-md-line-height;
+          font-weight: 700;
+          margin: 0;
+        }
+      }
+
+      & .phone {
+        padding: initial;
+      }
+    }
+  }
+
+  .logoClouds {
+    padding: 0 20px;
+
+    & .container {
+      grid-template-columns: max-content max-content;
+      gap: 10px 40px;
+    }
+  }
+
+  .features {
+    padding: 48px 20px;
+
+    & .heading {
+      max-width: 335px;
+
+      & .title {
+        font-size: $display-md-size;
+        line-height: $display-md-line-height;
+      }
+    }
+
+    & .container {
+      grid-template-columns: 300px;
+
+      & .item {
+        & .title {
+          font-size: $display-xs-size;
+          line-height: $display-xs-line-height;
+        }
+      }
+    }
+  }
+
+  .testimonial {
+    padding: 48px 20px;
+    gap: 24px;
+    flex-direction: column;
+
+    & .left {
+      gap: 32px;
+      align-items: flex-start;
+      background-size: 95px 78px;
+
+      & .heading {
+        padding: 32px 0 0 10px;
+
+        & .title {
+          font-size: $display-sm-size;
+          line-height: $display-sm-line-height;
+          font-weight: 700;
+        }
+
+        & .desc {
+          font-size: $body-md-size;
+          line-height: $body-md-line-height;
+        }
+      }
+    }
+
+    & .right {
+      margin-top: 0;
+      gap: 24px;
+    }
+
+    & .section {
+      width: initial;
+    }
+
+    & .hubspot {
+      width: initial;
+    }
+
+    & .airbnb {
+      width: initial;
+    }
+
+    & .strapi {
+      width: initial;
+    }
+  }
+
+  .footer {
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 32px;
+
+    & .left .links {
+      grid-template-columns: max-content max-content max-content max-content;
+      gap: 12px;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.footer {
+  background-color: $black;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 112px;
+
+  & .left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    & img {
+      margin-bottom: 12px;
+      width: 32px;
+      height: 32px;
+    }
+
+    & .company {
+      margin-top: 12px;
+      font-size: $body-sm-size;
+      line-height: $body-sm-line-height;
+      font-weight: 400;
+      color: $neutral-300;
+    }
+
+    & .links {
+      display: grid;
+      grid-template-columns: max-content max-content max-content max-content max-content max-content;
+      gap: 24px;
+
+      & .item {
+        color: $white;
+        font-size: $body-md-size;
+        line-height: $body-md-line-height;
+        font-weight: 400;
+      }
+    }
+  }
+
+  & .badges {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    & .title {
+      color: $neutral-300;
+      font-size: $body-lg-size;
+      line-height: $body-lg-line-height;
+      font-weight: 500;
+    }
+  }
+}

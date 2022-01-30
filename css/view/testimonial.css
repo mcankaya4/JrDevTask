@@ -1,0 +1,111 @@
+.testimonial {
+  background-color: $secondary-100;
+  padding: 64px 112px 96px;
+  display: flex;
+  gap: 32px;
+
+  & .left {
+    background-image: url("img/icon.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: flex-end;
+
+    & .heading {
+      padding: 60px 0 0 100px;
+
+      & .testimonial-icon {
+        position: absolute;
+      }
+
+      & .title {
+        font-size: $display-lg-size;
+        line-height: $display-lg-line-height;
+        font-weight: 700;
+      }
+
+      & .desc {
+        font-size: $body-lg-size;
+        line-height: $body-lg-line-height;
+        font-weight: 400;
+      }
+    }
+  }
+
+  & .right {
+    margin-top: 132px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  & .card {
+    padding: 32px;
+    background-color: $white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    & .card-logo {
+      width: 112px;
+      height: 32px;
+    }
+
+    & .content {
+      display: flex;
+      gap: 16px;
+
+      & img {
+        width: 16px;
+        height: 13px;
+      }
+
+      & .text {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        & .desc {
+          font-size: $body-lg-size;
+          line-height: $body-lg-line-height;
+          font-weight: 400;
+        }
+
+        & .author {
+          display: flex;
+          flex-direction: column;
+          & .name {
+            font-size: $body-lg-size;
+            line-height: $body-lg-line-height;
+            font-weight: 700;
+          }
+
+          & .name-title {
+            font-size: $body-sm-size;
+            line-height: $body-sm-line-height;
+            font-weight: 400;
+            color: $neutral-500;
+          }
+        }
+      }
+    }
+  }
+
+  & .section {
+    width: 516px;
+  }
+
+  & .hubspot {
+    width: 320px;
+  }
+
+  & .airbnb {
+    width: 414px;
+  }
+
+  & .strapi {
+    width: 320px;
+  }
+}
